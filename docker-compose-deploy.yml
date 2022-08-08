@@ -24,7 +24,7 @@ services:
       - postgres-data:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=${DB_NAME}
-      - POSTGRES_uSER=${DB_USER}
+      - POSTGRES_USER=${DB_USER}
       - POSTGRES_PASSWORD=${DB_PASS}
 
   proxy:
@@ -34,7 +34,7 @@ services:
     depends_on:
       - app
     ports:
-      - "8000:8000"
+      - 8000:8000
     volumes:
       - static-data:/vol/static
 
