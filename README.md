@@ -20,7 +20,7 @@ This project is designed to provide a robust and scalable RESTful API using Djan
 
 ## Features
 - User Authentication (Register, Login, Logout)
-- CRUD operations for managing resources
+- CRUD operations for managing recipes, Users
 - JWT token-based authentication
 - Pagination, Filtering, and Search functionality
 - Comprehensive API documentation with Swagger and ReDoc
