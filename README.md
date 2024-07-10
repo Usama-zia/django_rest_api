@@ -108,24 +108,17 @@ Here's a list of available API endpoints:
 - `POST /api/auth/logout/` - Logout a user
 
 ### Items
-- `GET /api/items/` - List all items
-- `POST /api/items/` - Create a new item
-- `GET /api/items/{id}/` - Retrieve a specific item
-- `PUT /api/items/{id}/` - Update a specific item
-- `DELETE /api/items/{id}/` - Delete a specific item
+- `GET /api/recipe/` - List all recipes
+- `POST /api/recipe/` - Create a new recipe
+- `GET /api/recipe/{id}/` - Retrieve a specific recipe
+- `PUT /api/recipe/{id}/` - Update a specific recipe
+- `DELETE /api/recipe/{id}/` - Delete a specific recipe
 
 ### Users
 - `GET /api/users/ - Get a list of all users
 - `GET /api/users/{id}/ - Get details of a specific user
 - `PUT /api/users/{id}/ - Update user details
 - `DELETE /api/users/{id}/ - Delete a user
-
-### Example Resource
-- `GET /api/resource/ - Get a list of all resources
-- `POST /api/resource/ - Create a new resource
-- `GET /api/resource/{id}/ - Get details of a specific resource
-- `PUT /api/resource/{id}/ - Update resource details
-- `DELETE /api/resource/{id}/ - Delete a resource  
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
