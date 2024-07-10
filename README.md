@@ -1,4 +1,3 @@
-Sure! Here’s a comprehensive `README.md` for the "django_rest_api" repository:
 
 ---
 
@@ -128,50 +127,7 @@ Here's a list of available API endpoints:
 - `PUT /api/resource/{id}/ - Update resource details
 - `DELETE /api/resource/{id}/ - Delete a resource  
 
-## Project Structure
-```
-django_rest_api/
-├── manage.py
-├── README.md
-├── requirements.txt
-├── api/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── urls.py
-│   ├── views.py
-│   └── migrations/
-├── config/
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-└── users/
-    ├── __init__.py
-    ├── admin.py
-    ├── apps.py
-    ├── models.py
-    ├── serializers.py
-    ├── urls.py
-    ├── views.py
-    └── migrations/
-```
-
-## Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-
-Feel free to adjust and expand this `README.md` to better fit the specifics and updates of your project.
